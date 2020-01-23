@@ -10,11 +10,6 @@ LABEL org.label-schema.schema-version="1.0" \
     org.label-schema.vendor="Alfresco"
 
 RUN yum -y update \
-    yum-utils-1.1.31-52.el7 \
-    yum-plugin-ovl-1.1.31-52.el7 \
-    yum-plugin-fastestmirror-1.1.31-52.el7 \
-    bind-license-9.11.4-9.P2.el7 \
-    glibc-2.17-292.el7 \
     openssl-libs-1.0.2k-19.el7 \
     krb5-libs-1.15.1-37.el7_7.2 \
     setup-2.8.71-10.el7 \
